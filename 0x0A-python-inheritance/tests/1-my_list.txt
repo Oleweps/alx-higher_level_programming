@@ -1,0 +1,30 @@
+# Test Case 1
+# Description: Testing basic functionality
+Input:
+1
+4
+2
+3
+5
+Command:
+print(my_list)
+print_sorted()
+print(my_list)
+Expected Output:
+[1, 4, 2, 3, 5]
+[1, 2, 3, 4, 5]
+[1, 4, 2, 3, 5]
+
+# Test Case 2
+# Description: Testing an empty list
+Input:
+Command:
+print(my_list)
+print_sorted()
+print(my_list)
+Expected Output:
+[]
+[]
+[]
+
+# Add more test cases as needed...
