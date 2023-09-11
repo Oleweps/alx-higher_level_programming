@@ -1,0 +1,26 @@
+# Test Case 1
+# Description: Testing integer_validator with valid input
+Input:
+my_int, 12
+width, 89
+Command:
+Expected Output:
+# No exceptions should be raised
+
+# Test Case 2
+# Description: Testing integer_validator with a non-integer value
+Input:
+name, John
+Command:
+Expected Output:
+[TypeError] name must be an integer
+
+# Test Case 3
+# Description: Testing integer_validator with a value less than or equal to 0
+Input:
+age, 0
+distance, -4
+Command:
+Expected Output:
+[ValueError] age must be greater than 0
+[ValueError] distance must be greater than 0
