@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" tests for rectangle class
+""" tests rectangle class
 """
 import unittest
 from unittest.mock import patch

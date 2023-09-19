@@ -10,7 +10,7 @@ class Rectangle(Base):
         """Initialize a new Rectangle.
 
         Args:
-            width (int): The width of the new Rectangle.
+            width (int): The width the new Rectangle.
             height (int): The height of the new Rectangle.
             x (int): The x coordinate of the new Rectangle.
             y (int): The y coordinate of the new Rectangle.

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Test Square Class
+""" Test the Square Class
 """
 import unittest
 

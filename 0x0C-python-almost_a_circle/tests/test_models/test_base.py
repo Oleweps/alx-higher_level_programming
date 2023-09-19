@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" tests for Base Model
+""" tests Base Model
 """
 import unittest
 import json
