@@ -1,6 +1,6 @@
--- Write a script that lists all shows from hbtn_0d_tvshows_rate by their rating.
---    Each record should display: tv_shows.title - rating sum
---    Results must be sorted in descending order by the rating
+-- script that lists all shows from hbtn_0d_tvshows_rate by their rating.
+-- Each record should display: tv_shows.title - rating sum
+-- Results must be sorted in descending order by the rating
 SELECT tv_shows.title, SUM(tv_show_ratings.rate) rating 
 FROM tv_show_ratings 
 INNER JOIN tv_shows 
