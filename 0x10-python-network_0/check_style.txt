@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Check code style for .sh files
+
+shellcheck *.sh
+pycodestyle *.py
